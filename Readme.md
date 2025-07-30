@@ -19,14 +19,13 @@ The project enhances SWAT-simulated streamflow by post-processing its outputs us
 ```bash
 SWAT-SVR-Streamflow/
 ├── data/
-│   └── all_stations_all_month.csv       # Observed & SWAT-simulated monthly data for multiple stations
+│   └── all_stations_all_month.csv  # Observed & SWAT-simulated monthly data for multiple stations
 ├── scripts/
-│   ├── 01_preprocess_data.R             # Load and split data into wet/dry seasons
-│   ├── 02_svr_train.R                   # Train SVR model for one station
-│   ├── 03_svr_validate.R                # Evaluate SVR performance on test data
-│   ├── 04_station_runner.R              # Batch run SVR for multiple stations
-│   └── utils.R                          # Helper functions (e.g., plotting, metrics)
-├── models/                              # Trained SVR model objects (optional)
-├── results/                             # Output plots and validation metrics
+│   ├── 01_data_preprocessing.R     # Load and split data into wet/dry seasons
+│   ├── 02_model_training.R         # Train SVR model for one station
+│   ├── 03_model_evaluation.R       # Evaluate SVR performance on test data
+│   ├── 04_utilities.R              # Batch run SVR for multiple stations
+│   └── 05_run_station_pipeline.R   # Helper functions (e.g., plotting, metrics)
+├── models/                         # Trained SVR model objects (optional)
+├── results/                        # Output plots and validation metrics
 ├── README.md
-└── run_all.R                            # Master script to reproduce all results
