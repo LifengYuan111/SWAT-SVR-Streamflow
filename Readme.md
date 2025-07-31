@@ -5,7 +5,7 @@ This repository provides an implementation of a hybrid hydrological modeling app
 The work is based on the methods and findings published in:
 
 - **PLOS ONE (2021)**: [A hybrid SWAT-SVR model for improving streamflow prediction](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0248489)
-- **Water (2022)**: [Development of a wavelet-enhanced SWAT-WSVR model for monthly flow simulation](https://www.mdpi.com/2073-4441/14/16/2649)
+- **Water (2022)**: [Development of a wavelet-enhanced SWAT-WSVR model for monthly flow simulation](https://www.mdpi.com/2073-4441/14/17/2649)
 
 ## 📌 Overview
 
